@@ -1,3 +1,5 @@
-const password = "test@123";
+const password = "test@1234";
 
-if (password.length <= 7) { console.log('valid'); } else if (password === "test@12") { console.log('too common'); } else { console.log('invalid'); }
+if (password.length <= 7) { console.log('too short'); } 
+else if (password === "test@1234") { console.log('valid'); } 
+else { console.log('invalid'); }
